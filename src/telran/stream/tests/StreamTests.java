@@ -1,13 +1,15 @@
 package telran.stream.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
-import telran.stream.*;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+
+import telran.stream.StreamTasks;
 
 class StreamTests {
 
@@ -79,9 +81,8 @@ class StreamTests {
 		displayOccurrences(strings);
 	}
 	@Test
-	void printDigitStatisticsTest() {
+	void printDigitStatisticsTes() {
 		StreamTasks.printDigitStatistics();
 	}
-	
 
 }
